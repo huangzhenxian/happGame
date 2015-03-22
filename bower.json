@@ -1,0 +1,15 @@
+{
+  "name": "happy-game",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "angular-ui-router": "~0.2.13",
+    "angular-route": "~1.3.15",
+    "angular-animate": "~1.3.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "happyGameApp"
+}
