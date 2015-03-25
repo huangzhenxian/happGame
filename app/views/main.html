@@ -1,0 +1,43 @@
+    <div style="width:100%; background-color:#e5e5e5; height:51px;">
+        <div class="main">
+            <div class="main" style="text-align:right; height:51px; line-height:51px; font-size:14px;">
+                <span class="left red">本公司游戏只适合18岁以上玩家！</span>
+                <span class="login">
+                    <span>
+                        账号：<input type="text" class="loginInput" id="LoginName" name="LoginName" /> 
+                        密码：<input type="password" class="loginInput" id="PassWord" name="PassWord" />
+                        <a href="javascript:LoginSubmit();" class="btn">登录</a><a href="../register.html" target="_blank" class="btn">注册</a>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <a href="index.html" title="快乐游戏吧"><img src="images/Default/logo.jpg" alt="快乐游戏吧" class="logo"/></a>
+            <ul>
+                <li ui-sref-active="active" ui-sref="main.idx" ><a href="index" title="网站首页" >网站首页</a></li>
+                <li ui-sref-active="active" ui-sref="main.gameLs" ><a href="gameLs" title="游戏列表" >游戏列表</a></li>
+                <li ui-sref-active="active" ui-sref="main.gameNews" ><a href="gameNews" title="新闻中心">新闻中心</a></li>
+            </ul>
+        </div>
+    
+        <!--ng 内容控制`-->    
+        <div ui-view></div>
+
+        <div class="footer">
+            <div style="width:980px; margin:0 auto; color:#fff; padding-top:22px;">
+                抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。
+                <div style="font-weight: bold; font-size: 17px;">
+                    <a style="color: #FCD20A;" href="InfoDetail_18.html" target="_blank">防沉迷系统指南</a> |
+                    <a style="color: #4CB649;" href="InfoDetail_17.html" target="_blank">防沉迷系统问题</a> |
+                    <a style="color: #17518A;" href="jzjh.html" target="_blank">家长监护工程</a> |
+                    <a style="color: #1A1C28;" href="InfoDetail_15.html" target="_blank">交易纠纷处理</a> |
+                    <a style="color: #FCD20A;" href="InfoDetail_19.html" target="_blank">用户服务协议</a> |
+                    <a style="color: #4CB649;" href="InfoDetail_20.html" target="_blank">用户守则</a>
+                </div>
+                <div><p>Copyright 2007-2014 哈皮吉姆科技（上海）有限公司 版权所有 All Rights Reserved<br/>沪ICP备14048273号-1</p></div>
+                <div class="blank10"></div>
+            </div>
+        </div>
+    </div>

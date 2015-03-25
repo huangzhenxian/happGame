@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{margin:0;padding:0; font-family:Arial, "微软雅黑"; font-size:12px; color:#000; line-height:24px;}
+img{ border:0; line-height:0;vertical-align:top;overflow:hidden;}
+ul,ol,form,li,dl,dt,dd,h1,h2,h3,p{ margin:0;padding:0;}
+ul{ list-style:none;}
+body{background:url(/images/Default/bg.jpg) repeat-x left 51px;}
+
+a{ text-decoration:none; color:#000;}
+a:hover{ color:#F00;}
+.deepred{color:#c80000;}
+.blank10{clear:both;height:10px;overflow:hidden;}
+.blank25{clear:both;height:25px;overflow:hidden;}
+.blank40{clear:both;height:40px;overflow:hidden;}
+.clear{clear:both;height:0;overflow:hidden;}
+.left{float:left;}
+.tac{text-align:center}
+
+.main{width:980px; margin:0 auto;}
+/*导航*/
+.nav{width:980px; height:92px;}
+.nav .logo{display:block; float:left;}
+.nav ul{float:right;}
+.nav ul li{width:120px; line-height:92px; float:left; display:inline;}
+.nav ul li a{display:block; color:#fff; text-align:center; font-size:18px;}
+.nav ul li a:hover{background:url(/images/Default/nav_hover.png) center top no-repeat;}
+.nav ul li.active a{background:url(/images/Default/nav_hover.png) center top no-repeat;}
+
+
+/*头部登录*/
+.red{ color:#f00;}
+.loginInput{ border:1px solid #fff; height:29px; width:150px; margin-right:5px;}
+.btn{ padding:8px 15px; color:#ec0c65; border:1px solid #ec0c65; background-color:#fff; display:inline; margin:0 3px;}
+
+/*首页*/
+.recom ul li{float:left;}
+.recom ul li.mid{ margin:0 16px;}
+
+.content .title{border-bottom:1px solid #bfbfbf; line-height:36px; height:36px;}
+.content .title img{ position:relative; top:1px;display:inline;}
+.content .title a{float:right;}
+.more{color:#bfbfbf; display:inline; margin-right:5px;}
+.content .title span.position{font-weight:normal; font-size:12px; color:#bfbfbf; display:inline; margin-right:5px; margin-left:0px; float:right;}
+.content .title span.position a { color: #bfbfbf; float: none;}
+.content .title span.position a:hover { color: #f00;}
+
+/*热门游戏*/
+.hotgame{float:left; width:662px;}
+.hotgame .data{height:502px; padding-top:18px; font-size:0;}
+.hotgame .data ul{background:url(/images/Default/ul_bg.png) left top repeat; height:485px; margin:0 auto; }
+.hotgame .data ul li{display:inline-table; background:url(/images/Default/bg_k.png) no-repeat; width:312px; height:144px; margin-top:9px; margin-bottom:10px; float:left;}
+.hotgame .data ul .li_paddingright{padding-right:35px;}
+.hotgame .data ul li .d_01{background:url(/images/Default/bg_k.png) no-repeat; width:312px; height:144px; float:left;}
+.hotgame .data ul li .d_02{background:url(/images/Default/bg_k.png) no-repeat; width:312px; height:144px; float:right;}
+.hotgame .data .gameimg{padding:13px 0px 13px 37px; float:left;}
+.hotgame .data .gamedata{float:left; height: 86px; overflow: hidden; width: 142px; padding:13px 10px 0; color:#999999; font-size:15px;}
+.hotgame .data .gamedata div{line-height:20px;}
+.hotgame .data .gamedata .gametitle{font-size:18px; color:#000;}
+.hotgame .data .game_btn{width:235px; margin:0 auto;}
+.hotgame .data .game_btn a{height:30px; display:inline-block;}
+.hotgame .data .game_btn a.download_btn{ background:url(/images/Default/download_btn.png) center top no-repeat; width:120px;}
+.hotgame .data .game_btn a.enter_btn{ background:url(/images/Default/enter_btn.png) center top no-repeat; width:100px; margin-left:10px;}
+
+/*右边*/
+.rightPart{float:left;width:290px; margin-left:26px;}
+.news .newsdata{height:250px; padding:5px 0 20px;}
+.news .newsdata ul{width:275px; margin:0 auto;}
+.news .newsdata ul li{border-bottom:1px dashed #bfbfbf; width:270px; height:30px; line-height:30px; float:left}
+.news .newsdata ul li span{ float: right;}
+.news .newsdata ul li a{ display:inline-block; width:220px; height:30px; text-align:left; overflow:hidden; float: left;}
+.servicedata{color:#000000; height:180px; padding-top:18px;}
+.servicedata div{width:230px; height:49px; margin-bottom:10px;line-height: 49px; padding-left:56px;}
+.servicedata .serviceqq{background:url(/images/Default/bg_kuang_01.png) center top no-repeat;}
+.servicedata .email{background:url(/images/Default/bg_kuang_02.png) center top no-repeat;}
+.servicedata .qqun{background:url(/images/Default/bg_kuang_03.png) center top no-repeat;}
+.bottomlink{height:1px; border-right:1px solid #bfbfbf; border-bottom:1px solid #bfbfbf;line-height: 0px;}
+
+/*友情链接*/
+.FriendLink .FriendLinkData{font-size:14px; padding:20px 0 25px;}
+.FriendLink .FriendLinkData ul{margin:0 auto;}
+.FriendLink .FriendLinkData ul li a{color:#454545; width:94px; display:inline-block; text-align:center; height:24px; overflow:hidden;}
+.FriendLink .FriendLinkData ul li span{display:inline-block; overflow:hidden;}
+
+/*尾部*/
+.footer{background-color:#F02148; border-top:1px solid #bfbfbf; text-align:center;}
+.footer div div a{color:#FFFFFF;}
+
+/*左侧部分*/
+.leftPart{ float:left; width:662px;}
+
+/*推荐游戏*/
+.recommgame .recommdata{ padding:9px 12px;}
+.recommgame .recommdata ul li{float:left; margin:0 5px; display:inline; border:1px solid #bfbfbf; padding:9px;}
+.recommgame .recommdata ul li .recommbroad{width:182px; height:218px; overflow:hidden;}
+.recommgame .recommdata ul li .hoverbefore {}
+.recommgame .recommdata ul li .hoverbefore div{text-align:right; padding-top:5px;}
+.recommgame .recommdata ul li .hoverbefore div span{ float:left;}
+.recommgame .recommdata ul li .hoverbefore div img{ display:inline; margin-left:5px; font-size:	13px;}
+.recommgame .recommdata ul li .hovered{ background-color:#000; border:1px solid #bfbfbf; padding:8px 15px;}
+.recommgame .recommdata ul li .hovered div{ background-color:#fff; margin-bottom:7px; padding:5px 20px; text-align:center; height:128px;}
+.recommgame .recommdata ul li .hovered a {margin-top:5px; display: block;}
+
+/*游戏列表*/
+.gamelist .gamelistdata ul li{padding:11px 18px; border-bottom:1px solid #bfbfbf;}
+.gamelist .gamelistdata ul .li_no_noborder{ border-bottom:none;}
+.gamelist .gamelistdata ul li .listcontent{ width:480px; padding-left:25px; line-height:18px; font-size:14px;}
+.gamelist .gamelistdata ul li .listcontent .listdata{height:75px; color:#bfbfbf; width:480px; overflow:hidden;}
+.gamelist .gamelistdata ul li .listcontent .listbottom{text-align:right; padding-right:15px;}
+.gamelist .gamelistdata ul li .listcontent .listbottom span{float:left;}
+.gamelist .gamelistdata ul li .listcontent .listbottom span.recomNum{ background:url(/images/Default/recom_stars.jpg) left center repeat-x; width:74px; height:18px;}
+
+/*分页*/
+.listpage{color:#000000; font-size:13px; text-align:center; padding-top:35px;}
+.listpage span{margin:0 5px; display:inline;}
+.listpage a{color:#000000;margin:0 5px; display:inline;}
+.listpage a:hover{color:red;}
+
+/*游戏内容*/
+.gamecontent .gamedetail{padding:16px 18px 0; height:127px;}
+.gamecontent .listcontent{ width:480px; padding-left:25px; line-height:18px; font-size:14px;}
+.gamecontent .listcontent .listdata{height:75px; color:#bfbfbf; width:480px; overflow:hidden;}
+.gamecontent .listcontent .listbottom span{float:left;}
+
+.gamecontent .imghead{ background:url(/images/Default/downimg_bg.html) center top repeat-x; height:30px;}
+.gamecontent .imghead ul li{ float:left; margin-right:15px; display:inline; line-height:30px; font-size:18px; font-weight:bold; color:#bfbfbf; cursor:pointer;}
+.gamecontent .imghead ul li.on{color:#F08200; border-bottom:2px solid #F08200;line-height: 28px;}
+
+#gamedowns .gamedowns_left{width:391px; float:left;}
+#gamedowns .gamedowns_right{background:url(/images/Default/pay_bg.png) no-repeat; font-size:14px; color:#FFFFFF; padding:45px 54px 5px 56px; width:160px; height:125px; line-height:18px; float:left;}
+#gamedowns .gamedowns_right .p1{ text-indent:2em; font-size:12px;}
+#gamedowns .gamedowns_right .p2{padding-left:35px;}
+#gamedowns .gamedowns_right .p2 span{ color:#FF0000; padding-right:5px;}
+#gamedowns .downbroad{padding:13px 0 0 20px; height:123px;}
+#gamedowns .downdetail{padding-right:25px; border-right:1px solid #bfbfbf;float:left;}
+#gamedowns .downdata{padding-left:30px; padding-top:5px; font-size:14px; width:205px;float:left;}
+#gamedowns .downdata div{width:205px; overflow:hidden; height:24px;}
+#gamedowns .dn{display:none;}
+
+.imagesbroad{ padding:15px 10px 0px 16px; height:242px;}
+.imagesbroad .imagelist{ width:636px; height:210px; overflow:hidden; position:relative;}
+.imagesbroad .imagelist ul{ position:relative; width:99999px;}
+.imagesbroad .imagelist ul li{ float:left; border:1px solid #bfbfbf; display:inline; margin:0 3px;}
+.imagesbroad .imagebtn{padding-top: 5px; text-align: center;}
+.imagesbroad .imagebtn a{display:inline-block; margin:4px 5px; background-color:#bfbfbf; width:36px; height:8px; font-size:0; line-height:0px;}
+.imagesbroad .imagebtn a.chosen{ background-color:#F08200;}
+.imagesbroad .imagebtn a.img_pre{background:url(/images/Default/img_pre.jpg) center center no-repeat; width:16px; height:16px; margin:0 5px;}
+.imagesbroad .imagebtn a.img_next{background:url(/images/Default/img_next.jpg) center center no-repeat; width:16px; height:16px; margin:0 5px;}
+
+/*文章列表*/
+.articlelist .artlist{padding-top:40px;}
+.articlelist .artlist ul{ height:950px; width:980px; margin:0 auto;}
+.articlelist .artlist ul li{border-bottom:1px dashed #bfbfbf; height:30px; line-height:30px; padding:0 5px; float:left;width: 970px;}
+.articlelist .artlist ul li span{ float: right;}
+.articlelist .artlist ul li a{ display:inline-block; width:900px; height:30px; text-align:left; overflow:hidden; float: left;}
+
+/*游戏支付*/
+.gamePay{width:580px; height:420px; padding-top:60px; padding-left:310px;}
+.gamePay form table{ font-size:16px; color:#bfbfbf;}
+.gamePay form table tr td{padding-bottom:5px;}
+.gamePay form table tr td span{ color:#ec0c66; padding-right:5px;}
+.gamePay form table tr td a img{ display:block;}
+.img_01{ float:left;}
+.img_02{ float:right;}
+.select_01{ background-color:#F7F7F7; border:1px solid #999999; width:212px; height:22px; padding:0px;}
+.input_01{ background-color:#F7F7F7; border:1px solid #999999; width:210px; height:20px; line-height:20px; padding:0;}
+.gamePay div{ line-height:16px; padding-top:95px;}
+.gamePay div p{ padding-bottom:8px;}
+.gamePay div p a{ padding:0px 5px;}
+
+/*详细内容*/
+
+.articledetail .artdetail{ padding:20px 30px; height:auto !important;height:574px;min-height:574px}
+.articledetail .artdetail .arttime{ text-align:center; font-size:10px; padding-bottom:10px;}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{width:980px; height:382px; overflow:hidden; position:relative;}
+.banner ul{ width:99999px; position:relative;}
+.banner ul li{float:left;}
+
+.banner .banner_btn{ position:absolute;}
+.banner .banner_btn a{width:50px; position:relative; z-index: 1;}
+.banner .banner_btn .banner_pre{background:url(../../images/default/left_btn.png) center center no-repeat; float:left;}
+.banner .banner_btn .banner_pre:hover{background:url(../../images/default/left_btn_active.png) center center no-repeat;}
+.banner .banner_btn .banner_next{background:url(../../images/default/right_btn.png) center center no-repeat; float:right;}
+.banner .banner_btn .banner_next:hover{background:url(../../images/default/right_btn_active.png) center center no-repeat;}

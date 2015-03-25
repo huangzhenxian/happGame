@@ -1,0 +1,20 @@
+<div style="margin-left:auto; margin-right:auto;">
+	<div>
+		查询:<input ng-model="query"/>
+	</div>
+	<br/>
+	<div>
+		排序:
+		<select ng-model="orderParm">
+			<option value="name">按名称排序</option>
+			<option value="info">按信息排序</option>	
+		</select>
+	</div>
+	<ul>
+		<li ng-repeat="date in datas | filter:query | orderBy:orderParm ">
+			<a href="#/deatail/{{date.name}}">
+				<img ng-src="{{date.img}}" style="width:80px;height:80px;" />名称-{{date.name}},信息-{{date.info}}
+			</a>
+		</li>
+	</ul>
+</div>
