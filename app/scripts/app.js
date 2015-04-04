@@ -6,27 +6,26 @@ appModule.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
         $stateProvider.state('main', {
             url: '/main',
-            templateUrl: 'views/main.html',
+            templateUrl: '../views/front/main.html',
             controller: 'dataLsController'
-        })
-            .state('main.idx', {
+        }) .state('main.idx', {
                 url: '/idx',
-                templateUrl: 'views/mainIdx.html'
-                //controller: 'mainIdxController'
+                templateUrl: '../views/front/mainIdx.html',
+                controller: 'mainIdxController'
             })
             .state('main.gameLs', {
                 url: '/gameLs',
-                templateUrl: 'views/mainGameLs.html'
+                templateUrl: '../views/front/mainGameLs.html'
                 //controller: 'mainIdxController'
             })
             .state('main.gameNews', {
                 url: '/gameNews',
-                templateUrl: 'views/mainGameNews.html'
+                templateUrl: '../views/front/mainGameNews.html'
                 //controller: 'mainIdxController'
             })
             .state('main.gameDetail', {
                 url: '/gameDetail/:gameid',
-                templateUrl: 'views/gameDetail.html',
+                templateUrl: '../views/front/gameDetail.html',
                 controller: 'gameDetailController'
             });
         /*state('main.content',{
